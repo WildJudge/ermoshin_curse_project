@@ -4,6 +4,7 @@ FILENAME = "operations.json"
 
 
 def main():
+    """Основная функция программы"""
     operations_data = load_json(FILENAME)
 
     num_operations_to_display = 5
